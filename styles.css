@@ -1,0 +1,75 @@
+
+.image-container{
+    width: 1360px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    /* align-content: center; */
+    background-color: #c9555541;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.image{
+    width: 250px;
+    height: 250px;
+
+    /* margin: 20px; */
+    /* padding: 20px; */
+}
+.first-image{
+    background-image: url("img/1.jpg");
+    background-color: #cccccc;
+}
+.second-image{
+    background-image: url("img/2.jpg");
+    background-color: #dbb1b1;
+}
+.third-image{
+    background-image: url("img/3.jpg");
+    background-color: #c95555;
+}
+.fourth-image{
+    background-image: url("img/4.jpg");
+    background-color: #cc0505;
+}
+/* -------------button container-------------------------- */
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+.button-image-container{
+    background-image: url("img/3.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    position: relative;
+}
+.button{
+    position: absolute;
+    height: 25px;
+}
+.top-left-button{
+    left: 0%;
+    top: 0%;
+    /* justify-content: flex-end; */
+}
+.top-right-button{
+    right: 0%;
+    top: 0%;
+}
+.bottom-left-button{
+    left: 0%;
+    bottom: 0%;
+}
+.bottom-right-button{
+    right: 0%;
+    bottom: 0%;
+}
+/* --------------MQ---------------------------------------- */
+ @media screen and (max-width: 900px) {
+    .image{
+        width: 40%;
+    }
+  } 

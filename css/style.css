@@ -1,0 +1,168 @@
+
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+li, a{
+    display: inline-block;
+    color: rgb(29, 29, 29);
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+.hr{
+    height: 2px;
+    background-color: rgb(231, 0, 0);
+    display: block;
+    padding: 0%;
+    margin: 0%;
+}
+.nav-top{
+    text-align: center;
+    /* position: fixed; */
+    background-color: white;
+    height: 40px;
+    
+}
+.nav-top > h4{
+   float: left!important;
+    color: rgb(68, 80, 80);
+    padding-left: 10px!important;
+    font-size: small;
+    margin-left: 15px!important;
+    margin-top: 15px!important;
+}
+.nav-top > h4, ul{
+    display: inline;
+    margin: 0px;
+    font-size: small;
+    padding: 0px;
+    
+}
+.left-nav-icon{
+    border-radius: 50%;
+    background-color: grey;
+    padding: 5px;
+}
+.top-nav-right-content{
+    float: right;
+}
+.device-icons{
+    text-align: center;
+    padding: 0%;
+}
+.nav-button{
+    color: red;
+    outline-style: none;
+    background-color: rgba(178, 34, 34, 0.342);
+}
+/* bottom navigation bar and hero image---------------------- */
+.nav-bottom > .logo, h4, ul{
+    display: inline;
+    
+}
+.logo{
+    float: left!important;
+    color: rgb(143, 224, 224);
+    padding-left: 10px;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.nav-bottom ul{
+    float: right;
+}
+.nav-bottom{
+    /* display: inline-block; */
+    position: relative;
+    /* background-image: url("img/aboutme.jpg"); */
+    align-content: center;
+    top: 0%;
+    left: 0%;
+    /* z-index: +1; */
+}
+.hero-banner-img{
+    width: 100%;
+    height: 400px;
+    margin-top: 0%;
+    position: relative;
+    margin: 0%;
+    z-index: -2;
+    padding: 0%;
+    opacity: 40%;
+    
+}
+.bottom-nav-container{
+    position: absolute;
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    /* margin: 0px 100px; */
+    justify-content: space-between;
+    display: flex;
+    
+}
+.bottom-nav-container-links{
+    margin-right: 150px;
+}
+.hero-banner-text{
+    left: 34%;
+    top: 50%;
+    position: absolute;
+    z-index: +3;
+    transform: translate(25% , 50%);
+}
+.image-text-wrapper{
+   position: absolute;
+   width: 100%;
+   top: 35%;
+   left: 0%;
+}
+/* try-logging-in sticky button------------- */
+.try-logging-in{
+   
+    right: 0px;
+    top: 100px;
+    margin-top: 100px;
+    position: fixed;
+    /* z-index: +3; */
+}
+.try-logging-in-button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(42, 88, 216);
+    outline-style: 1px solid blue;
+    padding: 5px;
+}
+/* timeline-------------------------------- */
+.timeline{
+    width: 730px;
+    margin-left: 350px;
+    margin-top: 70px;
+}
+.posts{
+    text-align: left;
+}
+.post-title:hover{
+    color: rgb(0, 78, 78);
+}
+.post-subtitle:hover{
+    color: rgb(0, 78, 78);
+}
+body{
+   text-align: center;
+}
+
+
+/* footer--------------------------- */
+footer{
+    
+    text-align: center;
+    height: 200px;
+    margin-top: 70px;
+}
+.facebook-icon{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
